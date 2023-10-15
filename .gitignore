@@ -3,3 +3,4 @@
 main
 *.swp
 *.tar.gz
+.vscode
