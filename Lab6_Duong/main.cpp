@@ -13,6 +13,7 @@ void readMatrix(int matrix1[MAX_SIZE][MAX_SIZE], int matrix2[MAX_SIZE][MAX_SIZE]
     return;
   }
 
+  // read first line into size reference
   fin >> size;
 
   // read first matrix
@@ -86,7 +87,7 @@ void subtractMatrices(int matrix1[][MAX_SIZE], int matrix2[][MAX_SIZE], int resu
 
 int main()
 {
-  // Declare and initialize the matrices
+  // declare and initialize the empty matrices
   int matrixA[MAX_SIZE][MAX_SIZE];
   int matrixB[MAX_SIZE][MAX_SIZE];
   int matrixSum[MAX_SIZE][MAX_SIZE];
