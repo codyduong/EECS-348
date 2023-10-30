@@ -1,0 +1,13 @@
+{
+  "name": "lab7",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Cody Duong <duongcody507@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "http-server .\\public_html\\"
+  }, 
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
