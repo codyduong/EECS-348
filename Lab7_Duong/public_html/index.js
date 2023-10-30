@@ -1,9 +1,6 @@
 const path = window.location.pathname;
 
-const pathSegments = [
-  'Home',
-  ...path.split('/').filter((segment) => segment !== ''),
-];
+const pathSegments = path.split('/').filter((segment) => segment !== '')
 
 const ul = document.createElement('ol');
 
@@ -16,7 +13,7 @@ pathSegments.forEach((segment, i) => {
     return;
   }
   const a = document.createElement('a');
-  a.href = `/${pathSegments.slice(1, i - 1).join('/')}`;
+  a.href = `/${pathSegments.slice(0, i - 1).join('/')}`;
   a.textContent = segment;
   a.rel = "noreferrer";
   li.appendChild(a);

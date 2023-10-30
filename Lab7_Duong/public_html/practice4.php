@@ -19,7 +19,7 @@
         <input type="submit">
       </form>
       <div id="response">
-        <!-- <?php
+        <?php
           if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $number = intval($_POST["size"]);
 
@@ -43,19 +43,12 @@
 
             echo "</table>";
           }
-          ?> -->
-
-          <?php
-          if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            echo 'foo'
-          }
         ?>
       </div>
     </div>
   </main>
 
   <script type="module" src="index.js"></script>
-
 </body>
 
 </html>
