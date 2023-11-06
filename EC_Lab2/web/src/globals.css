@@ -1,0 +1,42 @@
+body {
+  background-color: #eee;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  border-bottom: 1px solid black;
+  margin-bottom: 16px;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: #000;
+  content: '>';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.gap {
+  margin-bottom: 16px;
+}

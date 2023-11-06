@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Cody Duong" />
+  <title>EECS 348 Lab Seven Practice Three</title>
+  <link rel="stylesheet" href="globals.css">
+</head>
+
+<body>
+  <nav id="nav"></nav>
+
+  <main>
+    <div>
+      <h1>EECS 348 Lab Seven Practice Three</h1>
+
+      <form onsubmit="return false;">
+        <div class="gap">
+          <label for="pass1">First Password: </label><input type="text" id="pass1" value=""> <br>
+          <label for="pass2">Second Password: </label><input type="text" id="pass2" value=""> <br>
+        </div>
+        <div id="msg" class="gap"></div>
+        <button onclick="validate()">Validate Your
+          Passwords</button> <br>
+      </form>
+    </div>
+  </main>
+
+  <script type="module" src="index.js"></script>
+  <script src="practice3.js"></script>
+</body>
+
+</html>
