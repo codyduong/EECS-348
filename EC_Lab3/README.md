@@ -8,7 +8,7 @@ Install through your preferred format, on your preferred operating system
 
 - [LLVM](https://www.llvm.org/) or preferred build toolchain
 - [CMake](https://cmake.org/)
-- [Google Test](https://github.com/google/googletest)
+<!-- - [Google Test](https://github.com/google/googletest) -->
 
 Provided are CLI instructions for building from source:
 - [For Linux/Ubuntu](#linux)
